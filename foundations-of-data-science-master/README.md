@@ -1,20 +1,41 @@
-# DATS0001 Foundations of Data Science
+# inference and modelling
 
-Materials for DATS0001 Foundations of Data Science, ULiège, Fall 2022.
 
-- Instructor: Gilles Louppe
-- When: Fall 2022, Monday 1:30 PM
-- Classroom: 1.21 / B28
-- [Discord](https://discord.gg/g2SXBeNA) server
 
-## Agenda
+# introduction
 
-| Date | Topic |
-| --- | --- |
-| September 26 | [Course syllabus](https://glouppe.github.io/dats0001-foundations-of-data-science/?p=course-syllabus.md)<br> Lecture 1: Introduction<br>`nb01`: Build, compute, critique, repeat [[notebook](./nb01-box-loop.ipynb)]<br>Reading: Blei, [Build, Compute, Critique, Repeat](http://www.cs.columbia.edu/~blei/fogm/2020F/readings/Blei2014.pdf), 2014 [Section 1] |
-| October 3 | Lecture 2: Data<br>`nb02`: Tables [[notebook](./nb02-tables.ipynb)]<br>`nb03`: Data wrangling [[notebook](./nb03-data-wrangling.ipynb)]<br>Reading: Harris et al, [Array programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2), 2020 |
-| October 10 | Lecture 3: Visualization [[sidenotes](./pdf/lec03-sidenotes.pdf)]<br>`nb04`: Plots [[notebook](./nb04-plots.ipynb)]<br>`nb05`: Visualizing high-dimensional data [[notebook](./nb05-high-dimensional-data.ipynb)]<br>Reading: Rougier et al, [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable), 2014  |
-| October 17 | Lecture 4: Bayesian probabilistic modeling [[sidenotes](./pdf/lec04-sidenotes.pdf)]<br>`nb06`: Latent variable models [[notebook](./nb06-latent-variable-models.ipynb)]<br>Reading: Gelman et al, [Bayesian workflow](https://arxiv.org/abs/2011.01808), 2020 [Sections 1 and 2]<br>Reading: Blei, [Build, Compute, Critique, Repeat](http://www.cs.columbia.edu/~blei/fogm/2020F/readings/Blei2014.pdf), 2014 [Sections 2 and 3] |
+
+ understand that modeling is [Build, compute, critique, repeat] (./nb01-box-loop.ipynb)
+
+ in this notebook are introduced:
+ - log likelihood
+ - mcmc sampling with emcee
+ - *corner plot* with corner 
+
+<br> Reading: Blei, [Build, Compute, Critique, Repeat](http://www.cs.columbia.edu/~blei/fogm/2020F/readings/Blei2014.pdf), 2014 [Section 1]<br>
+
+# 2. miscs
+
+- numpy [ notebook](./nb02-tables.ipynb)
+- Data wrangling [notebook](./nb03-data-wrangling.ipynb)
+- Visualization [sidenotes](./pdf/lec03-sidenotes.pdf)
+- Plots [notebook](./nb04-plots.ipynb)
+-  Visualizing high-dimensional data [[notebook](./nb05-high-dimensional-data.ipynb)] [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable), 2014
+
+# 3. modeling
+
+
+
+## Bayesian probabilistic modeling [[sidenotes](./pdf/lec04-sidenotes.pdf)]
+
+In this pdf I learned that:
+
+-
+-
+
+Latent variable models [[notebook](./nb06-latent-variable-models.ipynb)]
+Gelman et al, [Bayesian workflow](https://arxiv.org/abs/2011.01808), 2020 [Sections 1 and 2]
+Blei, [Build, Compute, Critique, Repeat](http://www.cs.columbia.edu/~blei/fogm/2020F/readings/Blei2014.pdf), 2014 [Sections 2 and 3] |
 | October 24 | Lecture 5: Expectation-Minimization [[sidenotes](./pdf/lec05-sidenotes.pdf)]<br>`nb07`: Expectation-Maximization [[notebook](./nb07-em.ipynb)]<br>Reading: Dempster et al, [Maximum Likelihood from Incomplete Data via EM](https://www.jstor.org/stable/2984875), 1977 |
 | October 31 | Homework 1: [Explore the Argo data](https://github.com/glouppe-teaching/dats0001-hw1) |
 | November 7 | Lecture 6: Variational inference [[sidenotes](./pdf/lec06-sidenotes.pdf)]<br>`nb08`: ADVI [[notebook](./nb08-advi.ipynb)]<br>Reading: Kucukelbir et al, [Automatic Differentiation Variational Inference](https://arxiv.org/abs/1603.00788), 2016  |
