@@ -28,10 +28,7 @@
 
 ## Bayesian probabilistic modeling [[sidenotes](./pdf/lec04-sidenotes.pdf)]
 
-In this pdf I learned that:
-
--
--
+![symbols](https://revbayes.github.io/tutorials/intro/figures/graphical_model_legend.png)
 
 Latent variable models [[notebook](./nb06-latent-variable-models.ipynb)]
 Gelman et al, [Bayesian workflow](https://arxiv.org/abs/2011.01808), 2020 [Sections 1 and 2]
